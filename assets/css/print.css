@@ -1,0 +1,59 @@
+body {
+	visibility: hidden;
+}
+
+#colophon,
+#masthead,
+#secondary {
+	display: none;
+}
+
+body .site-content .content-print {
+	visibility: visible;
+	page-break-before: "";
+	page-break-after: "";
+}
+
+body .site-content .content-print .entry-action,
+.related-post,
+.site-header,
+.comments-area,
+.widget-area,
+.comments-area,
+body .site-content .content-print iframe,
+body .site-content .content-print embed {
+	display: none;
+}
+
+.single .site-content>.hentry .entry-content {
+	max-width: 100%;
+	width: 100%;
+}
+
+.single .site-content>.post footer.entry-meta {
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+.single .site-content>.hentry .entry-thumbnail {
+	margin-bottom: 20px;
+}
+
+.single .entry-content img {
+	max-width: 500px;
+}
+
+.hentry .alignleft,
+.hentry .alignright {
+	width: auto !important;
+}
+
+.hentry .alignleft {
+	float: left !important;
+	margin-right: 20px !important;
+}
+
+.hentry .alignright {
+	float: right !important;
+	margin-left: 20px !important;
+}

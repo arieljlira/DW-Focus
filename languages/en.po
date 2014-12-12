@@ -1,0 +1,1102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DW Focus\n"
+"POT-Creation-Date: 2014-03-25 16:23+0700\n"
+"PO-Revision-Date: 2014-03-25 16:24+0700\n"
+"Last-Translator: \n"
+"Language-Team: DesignWall <webmaster@designwall.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:57
+msgid "404!"
+msgstr ""
+
+#: 404.php:58
+msgid "The page you were looking for is not here"
+msgstr ""
+
+#: 404.php:66
+msgid "Maybe you are interested in:"
+msgstr ""
+
+#: archive.php:13
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:15
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:15
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:25
+msgid "Blog Archives"
+msgstr ""
+
+#: attachment.php:68 content-single.php:24 page.php:21
+#: template-full-width.php:17
+msgid "Pages:"
+msgstr ""
+
+#: author.php:26
+msgid "Website URL:"
+msgstr ""
+
+#: author.php:35
+msgid "AIM:"
+msgstr ""
+
+#: author.php:42
+msgid "Yahoo:"
+msgstr ""
+
+#: author.php:52
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: category.php:12
+#, php-format
+msgid "%s articles"
+msgstr ""
+
+#: comments.php:30
+#, php-format
+msgid "One Comment;"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37 comments.php:57
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:38 comments.php:58
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:39 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:88
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:90
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:92
+msgid "Website"
+msgstr ""
+
+#: content-archive.php:19 content-archive.php:34 content-archive.php:56
+#: content-related-post.php:10 content-related-post.php:22
+#: content-search.php:14 content-search.php:26 content.php:14 content.php:21
+#: inc/widgets/dw-focus-categories.php:241
+#: inc/widgets/dw-focus-categories.php:278
+#: inc/widgets/dw-focus-categories.php:290
+#: inc/widgets/dw-focus-categories.php:339
+#: inc/widgets/dw-focus-categories.php:378
+#: inc/widgets/dw-focus-categories.php:387
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-archive.php:41 content-archive.php:63 content-archive.php:82
+#: content.php:48 functions.php:438 inc/widgets/dw-focus-categories.php:264
+#: inc/widgets/dw-focus-categories.php:364
+#: inc/widgets/dw-focus-recent-posts.php:82
+#: inc/widgets/dw-focus-recent-posts.php:181
+#: inc/widgets/dw-focus-slider.php:107
+msgid ", "
+msgstr ""
+
+#: content-archive.php:45 content-archive.php:67
+#: inc/widgets/dw-focus-categories.php:268
+#: inc/widgets/dw-focus-categories.php:368
+#: inc/widgets/dw-focus-recent-posts.php:86
+#: inc/widgets/dw-focus-recent-posts.php:185
+#: inc/widgets/dw-focus-slider.php:111
+#, php-format
+msgid "<span> on </span>%1$s"
+msgstr ""
+
+#: content-archive.php:86 content.php:52
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: content.php:30
+msgid "0 comment "
+msgstr ""
+
+#: content.php:30
+msgid "1 comment"
+msgstr ""
+
+#: content.php:30
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: content.php:30
+msgid "comment off"
+msgstr ""
+
+#: dwqa-templates/content-start-wrapper.php:5
+msgid "Question & Answer"
+msgstr ""
+
+#: footer.php:83
+msgid "Scroll to top"
+msgstr ""
+
+#: footer.php:83
+msgid "Top"
+msgstr ""
+
+#: functions.php:122
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:238
+msgid "See More"
+msgstr ""
+
+#: functions.php:292
+#, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:300
+#, php-format
+msgid "about %s min"
+msgid_plural "%s mins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:306
+#, php-format
+msgid "about %s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:312
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:316
+msgid "ago"
+msgstr ""
+
+#: functions.php:422
+msgid "Sharing"
+msgstr ""
+
+#: functions.php:424 header.php:85 inc/customization.php:278
+msgid "Twitter"
+msgstr ""
+
+#: functions.php:425 header.php:82 inc/customization.php:264
+msgid "Facebook"
+msgstr ""
+
+#: functions.php:426
+msgid "Google +"
+msgstr ""
+
+#: functions.php:427 inc/customization.php:306
+msgid "Linkedin"
+msgstr ""
+
+#: functions.php:428
+msgid "Email this article"
+msgstr ""
+
+#: functions.php:430
+msgid "Print this article"
+msgstr ""
+
+#: functions.php:442
+msgid "Tags"
+msgstr ""
+
+#: functions.php:923
+msgid "New Articles today"
+msgstr ""
+
+#: functions.php:923
+msgid "Must read articles"
+msgstr ""
+
+#: functions.php:988
+msgid "Read more"
+msgstr ""
+
+#: header.php:88 inc/customization.php:292
+msgid "Google Plus"
+msgstr ""
+
+#: header.php:91
+msgid "Linked in"
+msgstr ""
+
+#: header.php:94
+msgid "Rss"
+msgstr ""
+
+#: header.php:97
+msgid "Login"
+msgstr ""
+
+#: inc/category-meta.php:11 inc/category-meta.php:49
+msgid "Category Style"
+msgstr ""
+
+#: inc/category-meta.php:13 inc/category-meta.php:54
+msgid "none"
+msgstr ""
+
+#: inc/category-meta.php:30 inc/category-meta.php:73
+msgid "Change style for this category"
+msgstr ""
+
+#: inc/class-customize-control.php:17 inc/customization.php:22
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/class-customize-control.php:22 inc/customization.php:23
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/class-customize-control.php:157 inc/customization.php:159
+msgid "List"
+msgstr ""
+
+#: inc/class-customize-control.php:162 inc/customization.php:160
+msgid "Grid"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:157
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:171
+#: inc/class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:172
+#: inc/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1950
+#: inc/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1950
+#: inc/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/customization.php:4
+msgid "General Settings"
+msgstr ""
+
+#: inc/customization.php:17
+msgid "Select Layout"
+msgstr ""
+
+#: inc/customization.php:56
+msgid "Logo"
+msgstr ""
+
+#: inc/customization.php:70
+msgid "Small logo"
+msgstr ""
+
+#: inc/customization.php:82
+msgid "Site Favicon"
+msgstr ""
+
+#: inc/customization.php:98
+msgid "Post Navigation Technique"
+msgstr ""
+
+#: inc/customization.php:102
+msgid "Number"
+msgstr ""
+
+#: inc/customization.php:103
+msgid "Load more button"
+msgstr ""
+
+#: inc/customization.php:116
+msgid "Plus Menu"
+msgstr ""
+
+#: inc/customization.php:120
+msgid "Display latest news Today"
+msgstr ""
+
+#: inc/customization.php:121
+msgid "Display latest news of the Site"
+msgstr ""
+
+#: inc/customization.php:122
+msgid "Hide latest news Today"
+msgstr ""
+
+#: inc/customization.php:135
+msgid "Number of news"
+msgstr ""
+
+#: inc/customization.php:142
+msgid "Category settings"
+msgstr ""
+
+#: inc/customization.php:154
+msgid "Default category display layout"
+msgstr ""
+
+#: inc/customization.php:166
+msgid "Style Selector"
+msgstr ""
+
+#: inc/customization.php:177
+msgid "Custom Color"
+msgstr ""
+
+#: inc/customization.php:184
+msgid "Font Selector"
+msgstr ""
+
+#: inc/customization.php:204
+msgid "Headding font"
+msgstr ""
+
+#: inc/customization.php:217
+msgid "Content font"
+msgstr ""
+
+#: inc/customization.php:225
+msgid "Social Links"
+msgstr ""
+
+#: inc/customization.php:237
+msgid "Enable login link"
+msgstr ""
+
+#: inc/customization.php:250
+msgid "Enable feed link"
+msgstr ""
+
+#: inc/customization.php:314
+msgid "Blog settings"
+msgstr ""
+
+#: inc/customization.php:336
+msgid "Select Category"
+msgstr ""
+
+#: inc/customization.php:351
+msgid "Number of posts per page"
+msgstr ""
+
+#: inc/customization.php:358
+msgid "Custom code"
+msgstr ""
+
+#: inc/customization.php:371
+msgid "Custom wp_head() code:"
+msgstr ""
+
+#: inc/customization.php:385
+msgid "Custom wp_footer() code:"
+msgstr ""
+
+#: inc/customization.php:398
+msgid "Enter scripts or code you would like output to wp_head():"
+msgstr ""
+
+#: inc/customization.php:400
+msgid "Enter scripts or code you would like output to wp_footer():"
+msgstr ""
+
+#: inc/customization.php:415
+msgid ""
+"The <code>wp_head()</code> hook executes immediately before the closing "
+"<code>&lt;&#47;head&gt;</code> tag in the document source."
+msgstr ""
+
+#: inc/customization.php:422
+msgid ""
+"The wp_footer() hook executes immediately before the closing </body> tag in "
+"the document source."
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:11
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:13
+msgid "Use to display widgets in secondary column"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:20
+msgid "Category Sidebar"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:22
+msgid "Use to display widgets in Category"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:29
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:31
+msgid "Use to display widgets in Single Post"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:38
+msgid "Home Content"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:40
+msgid "Use to display widgets in primary column of home"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:47
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:49
+msgid "Use to display widgets in Blog"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:56
+msgid "Header"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:58
+msgid "Use to display widgets in header"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:65
+msgid "Under Navigation"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:67
+msgid "Use to display widgets under navigation"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:74
+msgid "Bottom"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:76
+msgid "Use to display widgets under main content"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:83
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:85 inc/dw-focus-sidebar.php:94
+#: inc/dw-focus-sidebar.php:103 inc/dw-focus-sidebar.php:112
+msgid "Use to display widgets in footer"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:92
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:101
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: inc/dw-focus-sidebar.php:110
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: inc/extras.php:74
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/simple-avatar.php:68
+msgid "Local Avatar Permissions"
+msgstr ""
+
+#: inc/simple-avatar.php:82
+msgid ""
+"Only allow users with file upload capabilities to upload local avatars "
+"(Authors and above)"
+msgstr ""
+
+#: inc/simple-avatar.php:89
+msgid "Avatar"
+msgstr ""
+
+#: inc/simple-avatar.php:93
+msgid "Upload Avatar"
+msgstr ""
+
+#: inc/simple-avatar.php:108
+msgid "No local avatar is set. Use the upload field to add a local avatar."
+msgstr ""
+
+#: inc/simple-avatar.php:111
+msgid "Delete local avatar"
+msgstr ""
+
+#: inc/simple-avatar.php:112
+msgid ""
+"Replace the local avatar by uploading a new avatar, or erase the local "
+"avatar (falling back to a gravatar) by checking the delete option."
+msgstr ""
+
+#: inc/simple-avatar.php:116
+msgid "No local avatar is set. Set up your avatar at Gravatar.com."
+msgstr ""
+
+#: inc/simple-avatar.php:118
+msgid ""
+"You do not have media management permissions. To change your local avatar, "
+"contact the blog administrator."
+msgstr ""
+
+#: inc/template-tags.php:38
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:112
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:116
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:124
+msgid "Reply"
+msgstr ""
+
+#: inc/widgets/dw-focus-accordion.php:9
+msgid "Display widgets inside an accordion"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:11
+msgid "Display News as a Carousel"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:12
+msgid "DW Focus: News Carousel"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:37
+#: inc/widgets/dw-focus-latest-headlines.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:163
+#: inc/widgets/dw-focus-latest-comments.php:92
+#: inc/widgets/dw-focus-latest-headlines.php:120
+#: inc/widgets/dw-focus-latest-news.php:63
+#: inc/widgets/dw-focus-recent-posts.php:258
+#: inc/widgets/dw-focus-slider.php:206
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:166
+#: inc/widgets/dw-focus-latest-headlines.php:123
+#: inc/widgets/dw-focus-recent-posts.php:261
+#: inc/widgets/dw-focus-slider.php:209
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:168
+#: inc/widgets/dw-focus-latest-headlines.php:127
+#: inc/widgets/dw-focus-recent-posts.php:263
+#: inc/widgets/dw-focus-slider.php:215
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:180
+#: inc/widgets/dw-focus-recent-posts.php:275
+msgid "Post Format:"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:190
+msgid "Interval time (0 for disabled)"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:191 inc/widgets/dw-focus-slider.php:213
+msgid "second(s)"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:10
+msgid "Display News from Category"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:100
+msgid "Number of post"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:107
+#: inc/widgets/dw-focus-recent-posts.php:291
+#: inc/widgets/dw-focus-slider.php:231
+msgid "Show the meta infomation of post"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:110
+#: inc/widgets/dw-focus-recent-posts.php:294
+#: inc/widgets/dw-focus-slider.php:234
+msgid "Show the date of post"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:113
+#: inc/widgets/dw-focus-recent-posts.php:297
+#: inc/widgets/dw-focus-slider.php:237
+msgid "Show the author info"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:116
+#: inc/widgets/dw-focus-recent-posts.php:300
+#: inc/widgets/dw-focus-slider.php:240
+msgid "Show the category info"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:119
+msgid "Choose style for block category"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:120
+msgid "full width"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:121
+msgid "3 cols"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:130
+msgid "Select categories for showing content"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:177
+#: inc/widgets/dw-focus-categories.php:201
+msgid "All"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:209
+msgid "-- All --"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:255
+#: inc/widgets/dw-focus-categories.php:355
+#: inc/widgets/dw-focus-recent-posts.php:73
+#: inc/widgets/dw-focus-recent-posts.php:172
+msgid "by"
+msgstr ""
+
+#: inc/widgets/dw-focus-dynamic-widget.php:26
+msgid "Drag & Drop Widgets Here"
+msgstr ""
+
+#: inc/widgets/dw-focus-dynamic-widget.php:74
+msgctxt "widget"
+msgid "Edit"
+msgstr ""
+
+#: inc/widgets/dw-focus-dynamic-widget.php:75
+msgctxt "widget"
+msgid "Add"
+msgstr ""
+
+#: inc/widgets/dw-focus-dynamic-widget.php:87
+msgid "There are no options for this widget."
+msgstr ""
+
+#: inc/widgets/dw-focus-dynamic-widget.php:95
+msgid "Delete"
+msgstr ""
+
+#: inc/widgets/dw-focus-dynamic-widget.php:96
+msgid "Close"
+msgstr ""
+
+#: inc/widgets/dw-focus-dynamic-widget.php:99
+msgid "Save"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-comments.php:10
+msgid "The most recent comments"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-comments.php:11
+msgid "DW Focus: Recent Comments"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-comments.php:41
+msgid "DW Recent Comments"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-comments.php:59
+#, php-format
+msgctxt "widgets"
+msgid ""
+"<div class=\"comment-info\"> <span class=\"comment-date\">%1$s</span><span "
+"class=\"comment-title\">on %2$s</span><span class=\"comment-author\">by "
+"%3$s</span></div>"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-comments.php:95
+msgid "Number of comments to show:"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-headlines.php:10
+msgid "Display latest news as a headline scroll"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-headlines.php:11
+msgid "DW Focus: Headlines"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-headlines.php:125
+#: inc/widgets/dw-focus-slider.php:212
+msgid "Interval time (0 for disabled):"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-news.php:10
+msgid "DW Focus: Lastest news"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-news.php:11
+msgid "Display latest news"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-news.php:59
+msgid "Lastest News"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:285
+msgid "Show thumbnail for first post only"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:305
+msgid "Choose an image size"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:314
+msgid "Show readmore content"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:392
+msgid "Display latest news with many settings"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:393
+msgid "DW Focus: Recent News"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:405
+msgid "Display most viewed news with many settings"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:406
+msgid "DW Focus: Popular News"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:463
+msgid "Display featured news with many settings"
+msgstr ""
+
+#: inc/widgets/dw-focus-recent-posts.php:464
+msgid "DW Focus: Featured News"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:8
+msgid "Display News as a Slider"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:9
+msgid "DW Focus: News Slider"
+msgstr ""
+
+#: inc/widgets/dw-focus-tabs.php:15
+msgid "Display widgets inside a tab"
+msgstr ""
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:10
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:35
+msgid "Related posts"
+msgstr ""
