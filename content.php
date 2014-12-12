@@ -23,10 +23,10 @@
             <div class="entry-meta entry-meta-top">
                 <span><?php echo dw_human_time(); ?></span>
 
-                <span class="author">by <?php the_author_posts_link(); ?> </span>
+                <span class="author"><?php _e('by', 'dw_focus');?> <?php the_author_posts_link(); ?> </span>
                 
                 <span class="comments-link">
-                    <span>with</span>
+                    <span><?php _e('with', 'dw_focus');?></span>
                     <?php comments_popup_link( '<span class="leave-reply">' . __( '0 comment ', 'dw-focus' ) . '</span>', __( '1 comment', 'dw-focus' ), __( '% comments', 'dw-focus' ),'', __( 'comment off', 'dw-focus' ) ); 
                     ?>
                 </span>

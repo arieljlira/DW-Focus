@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DW Focus\n"
-"POT-Creation-Date: 2014-11-10 19:08-0300\n"
-"PO-Revision-Date: 2014-12-12 19:46-0300\n"
+"POT-Creation-Date: 2014-11-10 19:44-0300\n"
+"PO-Revision-Date: 2014-11-18 19:53-0300\n"
 "Last-Translator: Ariel Lira <arieljlira@gmail.com>\n"
 "Language-Team: DesignWall <webmaster@designwall.com>\n"
 "Language: en\n"
@@ -202,7 +202,7 @@ msgstr[1] "%s días"
 msgid "ago"
 msgstr "atrás"
 
-#: functions.php:414
+#: functions.php:414 searchform.php:8
 msgid "Search"
 msgstr "Buscar"
 
@@ -332,6 +332,10 @@ msgstr "La página solicitada no está aqui"
 #: 404.php:63
 msgid "Maybe you are interested in:"
 msgstr "Probablemente esté interesado en:"
+
+#: searchform.php:7
+msgid "Search &hellip;"
+msgstr "Buscar &hellip;"
 
 #: author.php:30 author.php:37
 msgid "Website URL:"

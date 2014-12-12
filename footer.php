@@ -31,7 +31,7 @@
                         || is_active_sidebar( 'dw_focus_footer_2' ) 
                         || is_active_sidebar( 'dw_focus_footer_3' )  
                         || is_active_sidebar( 'dw_focus_footer_4' )  ) { ?>
-                    <div class="span3"><a href="#" class="footer-toggle pull-right">Site index</a></div>
+                    <div class="span3"><a href="#" class="footer-toggle pull-right"><?php _e('Site index', 'dw_focus');?></a></div>
                     <?php } ?>
                 </div>
             </div>
@@ -71,8 +71,8 @@
         <div id="site-info" class="container">
             <div class="clearfix">
                 <div class="copyright">
-                    <p>Copyright &copy; 2012 by <a href="http://demo.designwall.com/dw-focus/" title="DW Focus" rel="nofollow">DW Focus</a>. Proudly powered by <a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">WordPress</a></p>
-                    <p><a title="Responsive WordPress Themes for Free and Premium" href="http://designwall.com/" rel="nofollow">WordPress Theme by DesignWall</a></p>
+                    <p><?php _e('Copyright &copy; 2012 by <a href="http://demo.designwall.com/dw-focus/" title="DW Focus" rel="nofollow">DW Focus</a>. Proudly powered by <a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">WordPress</a>', 'dw_focus');?></p>
+                    <p><?php _e('<a title="Responsive WordPress Themes for Free and Premium" href="http://designwall.com/" rel="nofollow">WordPress Theme by DesignWall</a>', 'dw_focus');?></p>
                 </div>
                 <div class="logo">
                     <a class="small-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>

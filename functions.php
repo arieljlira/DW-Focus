@@ -96,6 +96,7 @@ function dw_focus_setup() {
      * to change 'dw_focus' to the name of your theme in all the template files
      */
     load_theme_textdomain( 'dw_focus', get_template_directory() . '/languages' );
+    load_theme_textdomain( 'dw-focus', get_template_directory() . '/languages' );
 
     /**
      * Add default posts and comments RSS feed links to head
@@ -337,7 +338,7 @@ if( ! function_exists('dw_human_time_diff') ) {
         }
         $since = sprintf(_n('%s day', '%s days', $days), $days);
         } else {
-            return date( get_option( 'date_format' ), $from );
+            return date_i18n( get_option( 'date_format' ), $from );
         }
         return $since .' ' . __('ago','dw-focus') ;
     }
@@ -411,7 +412,7 @@ if( ! function_exists('dw_breadcrumb') ) {
                 echo "<li>404</li>";
             }
             elseif(is_search()){
-                echo "<li>Search</li>";
+                echo "<li>".__('Search', 'dw_focus')."</li>";
             }
             elseif(is_author()){
                 global $wp_query;
@@ -1128,7 +1129,7 @@ if( ! function_exists('dw_file_get_content') ) {
 // load style for dw qa plugin
 if( !function_exists('dwqa_focus_scripts') ){
     function dwqa_focus_scripts(){
-        wp_enqueue_style( 'dw-focus-qa', get_stylesheet_directory_uri() . '/dwqa-templates/style.css' );
+        wp_enqueue_style( 'dw-focus-qa', get_template_directory_uri() . '/dwqa-templates/style.css' );
     }
     add_action( 'wp_enqueue_scripts', 'dwqa_focus_scripts' );
 }
