@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DW Focus\n"
-"POT-Creation-Date: 2014-11-10 19:44-0300\n"
-"PO-Revision-Date: 2014-11-10 19:44-0300\n"
+"POT-Creation-Date: 2015-02-12 20:26-0300\n"
+"PO-Revision-Date: 2015-02-12 20:27-0300\n"
 "Last-Translator: Ariel Lira <arieljlira@gmail.com>\n"
 "Language-Team: DesignWall <webmaster@designwall.com>\n"
 "Language: en\n"
@@ -16,9 +16,112 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: content-archive.php:19 content-archive.php:34 content-archive.php:69
-#: content-related-post.php:10 content-related-post.php:22
-#: content-search.php:14 content-search.php:26 content.php:14 content.php:21
+#: functions.php:103
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:240
+msgid "See More"
+msgstr ""
+
+#: functions.php:301
+#, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:309
+#, php-format
+msgid "about %s min"
+msgid_plural "%s mins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:315
+#, php-format
+msgid "about %s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:321
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:325
+msgid "ago"
+msgstr ""
+
+#: functions.php:397 searchform.php:8
+msgid "Search"
+msgstr ""
+
+#: functions.php:429
+msgid "Sharing"
+msgstr ""
+
+#: functions.php:431 header.php:84 inc/customization.php:290
+msgid "Twitter"
+msgstr ""
+
+#: functions.php:432 header.php:81 inc/customization.php:276
+msgid "Facebook"
+msgstr ""
+
+#: functions.php:433
+msgid "Google +"
+msgstr ""
+
+#: functions.php:434 inc/customization.php:318
+msgid "Linkedin"
+msgstr ""
+
+#: functions.php:435
+msgid "Email this article"
+msgstr ""
+
+#: functions.php:437
+msgid "Print this article"
+msgstr ""
+
+#: functions.php:444
+msgid "Authors"
+msgstr "AuthorsAuthors"
+
+#: functions.php:472 content.php:48 content-archive.php:53
+#: content-archive.php:86 content-archive.php:104
+#: inc/widgets/dw-focus-categories.php:282
+#: inc/widgets/dw-focus-categories.php:395
+#: inc/widgets/dw-focus-recent-posts.php:95
+#: inc/widgets/dw-focus-recent-posts.php:206
+#: inc/widgets/dw-focus-latest-news.php:93
+#: inc/widgets/dw-focus-latest-news.php:116
+msgid ", "
+msgstr ""
+
+#: functions.php:476
+msgid "Tags"
+msgstr ""
+
+#: functions.php:1009
+msgid "New Articles today"
+msgstr ""
+
+#: functions.php:1009
+msgid "Must read articles"
+msgstr ""
+
+#: functions.php:1105
+msgid "Read more"
+msgstr ""
+
+#: content-search.php:14 content-search.php:26 content-related-post.php:10
+#: content-related-post.php:22 content.php:14 content.php:21
+#: content-archive.php:19 content-archive.php:34 content-archive.php:68
 #: inc/widgets/dw-focus-categories.php:246
 #: inc/widgets/dw-focus-categories.php:296
 #: inc/widgets/dw-focus-categories.php:308
@@ -31,63 +134,43 @@ msgstr ""
 msgid "Permalink to %s"
 msgstr ""
 
-#: content-archive.php:48 content-archive.php:52 content-archive.php:82
-#: content-archive.php:86 inc/widgets/dw-focus-categories.php:264
-#: inc/widgets/dw-focus-categories.php:276
-#: inc/widgets/dw-focus-categories.php:377
-#: inc/widgets/dw-focus-categories.php:389
-#: inc/widgets/dw-focus-latest-news.php:77
-#: inc/widgets/dw-focus-latest-news.php:87 inc/widgets/dw-focus-slider.php:103
-#: inc/widgets/dw-focus-recent-posts.php:77
-#: inc/widgets/dw-focus-recent-posts.php:89
-#: inc/widgets/dw-focus-recent-posts.php:188
-#: inc/widgets/dw-focus-recent-posts.php:200
-msgid " - "
+#: page.php:21 template-full-width.php:17 content-single.php:24
+#: attachment.php:68
+msgid "Pages:"
 msgstr ""
 
-#: content-archive.php:55 content-archive.php:89 content-archive.php:106
-#: functions.php:489 content.php:48 inc/widgets/dw-focus-categories.php:282
-#: inc/widgets/dw-focus-categories.php:395
-#: inc/widgets/dw-focus-latest-news.php:93
-#: inc/widgets/dw-focus-latest-news.php:116
-#: inc/widgets/dw-focus-recent-posts.php:95
-#: inc/widgets/dw-focus-recent-posts.php:206
-msgid ", "
+#: no-results.php:11
+msgid "Nothing Found"
 msgstr ""
 
-#: content-archive.php:110 content.php:52
-#: inc/widgets/dw-focus-latest-news.php:120
+#: no-results.php:17
 #, php-format
-msgid "Tags: %1$s"
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: archive.php:13
-#, php-format
-msgid "Daily Archives: %s"
+#: no-results.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
-#: archive.php:15
-#, php-format
-msgid "Monthly Archives: %s"
+#: no-results.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
-#: archive.php:15
-msgctxt "monthly archives date format"
-msgid "F Y"
+#: 404.php:54
+msgid "404!"
 msgstr ""
 
-#: archive.php:18
-#, php-format
-msgid "Category Archives: %s"
+#: 404.php:55
+msgid "The page you were looking for is not here"
 msgstr ""
 
-#: archive.php:22
-#, php-format
-msgid "Tag Archives: %s"
-msgstr ""
-
-#: archive.php:25
-msgid "Blog Archives"
+#: 404.php:63
+msgid "Maybe you are interested in:"
 msgstr ""
 
 #: comments.php:30
@@ -125,6 +208,40 @@ msgstr ""
 msgid "Website"
 msgstr ""
 
+#: archive.php:13
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:15
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:15
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:25
+msgid "Blog Archives"
+msgstr ""
+
+#: search.php:10
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
 #: footer.php:34
 msgid "Site index"
 msgstr ""
@@ -151,101 +268,25 @@ msgstr ""
 msgid "Top"
 msgstr ""
 
-#: page.php:21 attachment.php:68 template-full-width.php:17
-#: content-single.php:24
-msgid "Pages:"
+#: author.php:30 author.php:37
+msgid "Website URL:"
 msgstr ""
 
-#: functions.php:122
-msgid "Primary Menu"
+#: author.php:46
+msgid "AIM:"
 msgstr ""
 
-#: functions.php:264
-msgid "See More"
+#: author.php:54 author.php:59
+msgid "Yahoo:"
 msgstr ""
 
-#: functions.php:318
+#: author.php:68
 #, php-format
-msgid "%s second"
-msgid_plural "%s seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: functions.php:326
-#, php-format
-msgid "about %s min"
-msgid_plural "%s mins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: functions.php:332
-#, php-format
-msgid "about %s hour"
-msgid_plural "%s hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#: functions.php:338
-#, php-format
-msgid "%s day"
-msgid_plural "%s days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: functions.php:342
-msgid "ago"
+msgid "Author Archives: %s"
 msgstr ""
 
-#: functions.php:414 searchform.php:8
-msgid "Search"
-msgstr ""
-
-#: functions.php:446
-msgid "Sharing"
-msgstr ""
-
-#: functions.php:448 header.php:83 inc/customization.php:290
-msgid "Twitter"
-msgstr ""
-
-#: functions.php:449 header.php:80 inc/customization.php:276
-msgid "Facebook"
-msgstr ""
-
-#: functions.php:450
-msgid "Google +"
-msgstr ""
-
-#: functions.php:451 inc/customization.php:318
-msgid "Linkedin"
-msgstr ""
-
-#: functions.php:452
-msgid "Email this article"
-msgstr ""
-
-#: functions.php:454
-msgid "Print this article"
-msgstr ""
-
-#: functions.php:461
-msgid "Authors"
-msgstr "AuthorsAuthors"
-
-#: functions.php:493
-msgid "Tags"
-msgstr ""
-
-#: functions.php:964
-msgid "New Articles today"
-msgstr ""
-
-#: functions.php:964
-msgid "Must read articles"
-msgstr ""
-
-#: functions.php:1029
-msgid "Read more"
+#: searchform.php:7
+msgid "Search &hellip;"
 msgstr ""
 
 #: content.php:26
@@ -273,35 +314,10 @@ msgstr ""
 msgid "comment off"
 msgstr ""
 
-#: no-results.php:11
-msgid "Nothing Found"
-msgstr ""
-
-#: no-results.php:17
+#: content.php:52 content-archive.php:108
+#: inc/widgets/dw-focus-latest-news.php:120
 #, php-format
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-
-#: no-results.php:21
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
-msgstr ""
-
-#: no-results.php:26
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-
-#: search.php:10
-#, php-format
-msgid "Search Results for: %s"
-msgstr ""
-
-#: single.php:33
-msgid "Related posts"
+msgid "Tags: %1$s"
 msgstr ""
 
 #: category.php:12
@@ -309,205 +325,279 @@ msgstr ""
 msgid "%s articles"
 msgstr ""
 
-#: 404.php:54
-msgid "404!"
+#: content-archive.php:48 content-archive.php:56 content-archive.php:81
+#: content-archive.php:89 inc/widgets/dw-focus-slider.php:128
+#: inc/widgets/dw-focus-categories.php:264
+#: inc/widgets/dw-focus-categories.php:276
+#: inc/widgets/dw-focus-categories.php:377
+#: inc/widgets/dw-focus-categories.php:389
+#: inc/widgets/dw-focus-recent-posts.php:77
+#: inc/widgets/dw-focus-recent-posts.php:89
+#: inc/widgets/dw-focus-recent-posts.php:188
+#: inc/widgets/dw-focus-recent-posts.php:200
+#: inc/widgets/dw-focus-latest-news.php:77
+#: inc/widgets/dw-focus-latest-news.php:87
+msgid " - "
 msgstr ""
 
-#: 404.php:55
-msgid "The page you were looking for is not here"
-msgstr ""
-
-#: 404.php:63
-msgid "Maybe you are interested in:"
-msgstr ""
-
-#: searchform.php:7
-msgid "Search &hellip;"
-msgstr ""
-
-#: author.php:30 author.php:37
-msgid "Website URL:"
-msgstr ""
-
-#: author.php:46
-msgid "AIM:"
-msgstr ""
-
-#: author.php:54 author.php:59
-msgid "Yahoo:"
-msgstr ""
-
-#: author.php:68
-#, php-format
-msgid "Author Archives: %s"
-msgstr ""
-
-#: header.php:86 inc/customization.php:304
+#: header.php:87 inc/customization.php:304
 msgid "Google Plus"
 msgstr ""
 
-#: header.php:89
+#: header.php:90
 msgid "Linked in"
 msgstr ""
 
-#: header.php:92
+#: header.php:93
 msgid "Rss"
 msgstr ""
 
-#: header.php:95
+#: header.php:96
 msgid "Login"
+msgstr ""
+
+#: single.php:33
+msgid "Related posts"
 msgstr ""
 
 #: dwqa-templates/content-start-wrapper.php:5
 msgid "Question & Answer"
 msgstr ""
 
-#: inc/customization.php:4
-msgid "General Settings"
+#: inc/parsers.php:42 inc/parsers.php:72 inc/parsers.php:80
+#: dw-importer/lib/parsers.php:42 dw-importer/lib/parsers.php:72
+#: dw-importer/lib/parsers.php:80
+msgid "There was an error when reading this WXR file"
 msgstr ""
 
-#: inc/customization.php:17
-msgid "Select Layout"
-msgstr ""
-
-#: inc/customization.php:22 inc/class-customize-control.php:17
-msgid "Right Sidebar"
-msgstr ""
-
-#: inc/customization.php:23 inc/class-customize-control.php:22
-msgid "Left Sidebar"
-msgstr ""
-
-#: inc/customization.php:56
-msgid "Logo - 230 x 80"
-msgstr ""
-
-#: inc/customization.php:69
-msgid "Small logo - 100 x 22"
-msgstr ""
-
-#: inc/customization.php:82
-msgid "404 logo - 920 x 200"
-msgstr ""
-
-#: inc/customization.php:94
-msgid "Site Favicon"
-msgstr ""
-
-#: inc/customization.php:110
-msgid "Post Navigation Technique"
-msgstr ""
-
-#: inc/customization.php:114
-msgid "Number"
-msgstr ""
-
-#: inc/customization.php:115
-msgid "Load more button"
-msgstr ""
-
-#: inc/customization.php:128
-msgid "Plus Menu"
-msgstr ""
-
-#: inc/customization.php:132
-msgid "Display latest news Today"
-msgstr ""
-
-#: inc/customization.php:133
-msgid "Display latest news of the Site"
-msgstr ""
-
-#: inc/customization.php:134
-msgid "Hide latest news Today"
-msgstr ""
-
-#: inc/customization.php:147
-msgid "Number of news"
-msgstr ""
-
-#: inc/customization.php:154
-msgid "Archive settings"
-msgstr ""
-
-#: inc/customization.php:166
-msgid "Default archive pages display layout"
-msgstr ""
-
-#: inc/customization.php:171 inc/class-customize-control.php:128
-msgid "List"
-msgstr ""
-
-#: inc/customization.php:172 inc/class-customize-control.php:133
-msgid "Grid"
-msgstr ""
-
-#: inc/customization.php:178
-msgid "Style Selector"
-msgstr ""
-
-#: inc/customization.php:189
-msgid "Custom Color"
-msgstr ""
-
-#: inc/customization.php:196
-msgid "Font Selector"
-msgstr ""
-
-#: inc/customization.php:216
-msgid "Headding font"
-msgstr ""
-
-#: inc/customization.php:229
-msgid "Content font"
-msgstr ""
-
-#: inc/customization.php:237
-msgid "Social Links"
-msgstr ""
-
-#: inc/customization.php:249
-msgid "Enable login link"
-msgstr ""
-
-#: inc/customization.php:262
-msgid "Enable feed link"
-msgstr ""
-
-#: inc/customization.php:326
-msgid "Blog settings"
-msgstr ""
-
-#: inc/customization.php:350
-msgid "Select Category"
-msgstr ""
-
-#: inc/customization.php:364
-msgid "Number of posts per page"
-msgstr ""
-
-#: inc/customization.php:371
-msgid "Custom code"
-msgstr ""
-
-#: inc/customization.php:384
-msgid "Custom wp_head() code:"
-msgstr ""
-
-#: inc/customization.php:398
-msgid "Custom wp_footer() code:"
-msgstr ""
-
-#: inc/customization.php:418
+#: inc/parsers.php:43 dw-importer/lib/parsers.php:43
 msgid ""
-"The <code>wp_head()</code> hook executes immediately before the closing "
-"<code>&lt;&#47;head&gt;</code> tag in the document source."
+"Details are shown above. The importer will now try again with a different "
+"parser..."
 msgstr ""
 
-#: inc/customization.php:425
+#: inc/parsers.php:84 inc/parsers.php:89 inc/parsers.php:279
+#: inc/parsers.php:468 dw-importer/lib/parsers.php:84
+#: dw-importer/lib/parsers.php:89 dw-importer/lib/parsers.php:279
+#: dw-importer/lib/parsers.php:470
 msgid ""
-"The wp_footer() hook executes immediately before the closing </body> tag in "
-"the document source."
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/category-meta.php:11 inc/category-meta.php:49
+msgid "Category Style"
+msgstr ""
+
+#: inc/category-meta.php:13 inc/category-meta.php:54
+msgid "none"
+msgstr ""
+
+#: inc/category-meta.php:30 inc/category-meta.php:73
+msgid "Change style for this category"
+msgstr ""
+
+#: inc/wordpress-importer.php:134 inc/wordpress-importer.php:143
+#: inc/wordpress-importer.php:194 inc/wordpress-importer.php:198
+#: inc/wordpress-importer.php:207 dw-importer/lib/wordpress-importer.php:141
+#: dw-importer/lib/wordpress-importer.php:150
+#: dw-importer/lib/wordpress-importer.php:201
+#: dw-importer/lib/wordpress-importer.php:205
+#: dw-importer/lib/wordpress-importer.php:214
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/wordpress-importer.php:135 dw-importer/lib/wordpress-importer.php:142
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/wordpress-importer.php:178 dw-importer/lib/wordpress-importer.php:185
+msgid "All done."
+msgstr ""
+
+#: inc/wordpress-importer.php:178 dw-importer/lib/wordpress-importer.php:185
+msgid "Have fun!"
+msgstr ""
+
+#: inc/wordpress-importer.php:179 dw-importer/lib/wordpress-importer.php:186
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/wordpress-importer.php:199 dw-importer/lib/wordpress-importer.php:206
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/wordpress-importer.php:215 dw-importer/lib/wordpress-importer.php:222
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/wordpress-importer.php:240 dw-importer/lib/wordpress-importer.php:247
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/wordpress-importer.php:266 dw-importer/lib/wordpress-importer.php:273
+#, fuzzy
+msgid "Assign Authors"
+msgstr "AuthorsAuthors"
+
+#: inc/wordpress-importer.php:267 dw-importer/lib/wordpress-importer.php:274
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/wordpress-importer.php:269 dw-importer/lib/wordpress-importer.php:276
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/wordpress-importer.php:279 dw-importer/lib/wordpress-importer.php:286
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/wordpress-importer.php:282 dw-importer/lib/wordpress-importer.php:289
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/wordpress-importer.php:286 dw-importer/lib/wordpress-importer.php:293
+msgid "Submit"
+msgstr ""
+
+#: inc/wordpress-importer.php:299 dw-importer/lib/wordpress-importer.php:306
+msgid "Import author:"
+msgstr ""
+
+#: inc/wordpress-importer.php:310 dw-importer/lib/wordpress-importer.php:317
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/wordpress-importer.php:313 dw-importer/lib/wordpress-importer.php:320
+msgid "as a new user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:321 dw-importer/lib/wordpress-importer.php:328
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:323 dw-importer/lib/wordpress-importer.php:330
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:324 dw-importer/lib/wordpress-importer.php:331
+msgid "- Select -"
+msgstr ""
+
+#: inc/wordpress-importer.php:374 dw-importer/lib/wordpress-importer.php:381
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/wordpress-importer.php:485 dw-importer/lib/wordpress-importer.php:498
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:525 dw-importer/lib/wordpress-importer.php:538
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:571 inc/wordpress-importer.php:724
+#: dw-importer/lib/wordpress-importer.php:584
+#: dw-importer/lib/wordpress-importer.php:737
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:597 dw-importer/lib/wordpress-importer.php:610
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:619 dw-importer/lib/wordpress-importer.php:632
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/wordpress-importer.php:690 dw-importer/lib/wordpress-importer.php:703
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/wordpress-importer.php:855 dw-importer/lib/wordpress-importer.php:868
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/wordpress-importer.php:862 dw-importer/lib/wordpress-importer.php:875
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:925 dw-importer/lib/wordpress-importer.php:938
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/wordpress-importer.php:947 dw-importer/lib/wordpress-importer.php:960
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/wordpress-importer.php:1018 dw-importer/lib/wordpress-importer.php:1018
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/wordpress-importer.php:1024 dw-importer/lib/wordpress-importer.php:1024
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/wordpress-importer.php:1031 dw-importer/lib/wordpress-importer.php:1031
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/wordpress-importer.php:1036 dw-importer/lib/wordpress-importer.php:1036
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/wordpress-importer.php:1042 dw-importer/lib/wordpress-importer.php:1042
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:1141 dw-importer/lib/wordpress-importer.php:1141
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/wordpress-importer.php:1148 dw-importer/lib/wordpress-importer.php:1148
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/wordpress-importer.php:1163 dw-importer/lib/wordpress-importer.php:1163
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/wordpress-importer.php:1164 dw-importer/lib/wordpress-importer.php:1164
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
 msgstr ""
 
 #: inc/dw-focus-sidebar.php:11
@@ -595,223 +685,152 @@ msgstr ""
 msgid "Footer Sidebar 4"
 msgstr ""
 
-#: inc/extras.php:74
-#, php-format
-msgid "Page %s"
+#: inc/class-customize-control.php:17 inc/customization.php:22
+msgid "Right Sidebar"
 msgstr ""
 
-#: inc/category-meta.php:11 inc/category-meta.php:49
-msgid "Category Style"
+#: inc/class-customize-control.php:22 inc/customization.php:23
+msgid "Left Sidebar"
 msgstr ""
 
-#: inc/category-meta.php:13 inc/category-meta.php:54
-msgid "none"
+#: inc/class-customize-control.php:128 inc/customization.php:171
+msgid "List"
 msgstr ""
 
-#: inc/category-meta.php:30 inc/category-meta.php:73
-msgid "Change style for this category"
+#: inc/class-customize-control.php:133 inc/customization.php:172
+msgid "Grid"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:155
-msgid "Install Required Plugins"
+#: inc/customization.php:4
+msgid "General Settings"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:156
-msgid "Install Plugins"
+#: inc/customization.php:17
+msgid "Select Layout"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:157
-#, php-format
-msgid "Installing Plugin: %s"
+#: inc/customization.php:56
+msgid "Logo - 230 x 80"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:158
-msgid "Something went wrong."
+#: inc/customization.php:69
+msgid "Small logo - 100 x 22"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:169
-msgid "Return to Required Plugins Installer"
+#: inc/customization.php:82
+msgid "404 logo - 920 x 200"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:170
-msgid "Return to the dashboard"
+#: inc/customization.php:94
+msgid "Site Favicon"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:171
-#: inc/class-tgm-plugin-activation.php:1840
-msgid "Plugin activated successfully."
+#: inc/customization.php:110
+msgid "Post Navigation Technique"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:172
-#: inc/class-tgm-plugin-activation.php:1538
-msgid "The following plugin was activated successfully:"
-msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/class-tgm-plugin-activation.php:173
-#, php-format
-msgid "All plugins installed and activated successfully. %1$s"
+#: inc/customization.php:114
+msgid "Number"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:174
-msgid "Dismiss this notice"
+#: inc/customization.php:115
+msgid "Load more button"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1085
-msgid "External Link"
+#: inc/customization.php:128
+msgid "Plus Menu"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1090
-msgid "Private Repository"
+#: inc/customization.php:132
+msgid "Display latest news Today"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1093
-msgid "Pre-Packaged"
+#: inc/customization.php:133
+msgid "Display latest news of the Site"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1097
-msgid "WordPress Repository"
+#: inc/customization.php:134
+msgid "Hide latest news Today"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1100
-msgid "Required"
+#: inc/customization.php:147
+msgid "Number of news"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1100
-msgid "Recommended"
+#: inc/customization.php:154
+msgid "Archive settings"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1103
-msgid "Not Installed"
+#: inc/customization.php:166
+msgid "Default archive pages display layout"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1105
-msgid "Installed But Not Activated"
+#: inc/customization.php:178
+msgid "Style Selector"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1275
-#, php-format
+#: inc/customization.php:189
+msgid "Custom Color"
+msgstr ""
+
+#: inc/customization.php:196
+msgid "Font Selector"
+msgstr ""
+
+#: inc/customization.php:216
+msgid "Headding font"
+msgstr ""
+
+#: inc/customization.php:229
+msgid "Content font"
+msgstr ""
+
+#: inc/customization.php:237
+msgid "Social Links"
+msgstr ""
+
+#: inc/customization.php:249
+msgid "Enable login link"
+msgstr ""
+
+#: inc/customization.php:262
+msgid "Enable feed link"
+msgstr ""
+
+#: inc/customization.php:326
+msgid "Blog settings"
+msgstr ""
+
+#: inc/customization.php:350
+msgid "Select Category"
+msgstr ""
+
+#: inc/customization.php:364
+msgid "Number of posts per page"
+msgstr ""
+
+#: inc/customization.php:371
+msgid "Custom code"
+msgstr ""
+
+#: inc/customization.php:384
+msgid "Custom wp_head() code:"
+msgstr ""
+
+#: inc/customization.php:398
+msgid "Custom wp_footer() code:"
+msgstr ""
+
+#: inc/customization.php:418
 msgid ""
-"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
-"Dashboard\">Return to the Dashboard</a>"
+"The <code>wp_head()</code> hook executes immediately before the closing "
+"<code>&lt;&#47;head&gt;</code> tag in the document source."
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1291
-msgid "Plugin"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1292
-msgid "Source"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1293
-msgid "Type"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1294
-msgid "Status"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1312
-msgid "Install"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1313
-msgid "Activate"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1823
-msgid "Install package not available."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1824
-#, php-format
-msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1825
-msgid "Unpacking the package&#8230;"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1826
-msgid "Installing the plugin&#8230;"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1827
-msgid "Plugin install failed."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1828
-msgid "Plugin installed successfully."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1839
-msgid "Plugin activation failed."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1949
+#: inc/customization.php:425
 msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1950
-#, php-format
-msgid "%1$s installed and activated successfully."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1950
-#: inc/class-tgm-plugin-activation.php:1959
-msgid "Show Details"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1950
-#: inc/class-tgm-plugin-activation.php:1959
-msgid "Hide Details"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1951
-msgid "All installations and activations have been completed."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1952
-#, php-format
-msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1956
-msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1957
-#, php-format
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1958
-#, php-format
-msgid "The installation of %1$s failed."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1959
-#, php-format
-msgid "%1$s installed successfully."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1960
-msgid "All installations have been completed."
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:1961
-#, php-format
-msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: inc/class-tgm-plugin-activation.php:2052
-msgid "Return to the Dashboard"
+"The wp_footer() hook executes immediately before the closing </body> tag in "
+"the document source."
 msgstr ""
 
 #: inc/template-tags.php:38
@@ -856,6 +875,135 @@ msgstr ""
 msgid "Reply"
 msgstr ""
 
+#: inc/extras.php:74
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/widgets/dw-focus-accordion.php:9
+msgid "Display widgets inside an accordion"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:11
+msgid "Display News as a Carousel"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:12
+msgid "DW Focus: News Carousel"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:37
+#: inc/widgets/dw-focus-latest-headlines.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:163 inc/widgets/dw-focus-slider.php:226
+#: inc/widgets/dw-focus-latest-comments.php:92
+#: inc/widgets/dw-focus-recent-posts.php:282
+#: inc/widgets/dw-focus-latest-headlines.php:120
+#: inc/widgets/dw-focus-latest-news.php:161
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:166 inc/widgets/dw-focus-slider.php:229
+#: inc/widgets/dw-focus-recent-posts.php:285
+#: inc/widgets/dw-focus-latest-headlines.php:123
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:168 inc/widgets/dw-focus-slider.php:235
+#: inc/widgets/dw-focus-recent-posts.php:287
+#: inc/widgets/dw-focus-latest-headlines.php:127
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:180
+#: inc/widgets/dw-focus-recent-posts.php:299
+msgid "Post Format:"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:190
+msgid "Interval time (0 for disabled)"
+msgstr ""
+
+#: inc/widgets/dw-focus-carousel.php:191 inc/widgets/dw-focus-slider.php:233
+msgid "second(s)"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:8
+msgid "Display News as a Slider"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:9
+msgid "DW Focus: News Slider"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:232
+#: inc/widgets/dw-focus-latest-headlines.php:125
+msgid "Interval time (0 for disabled):"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:247
+msgid "Tag:"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:265 inc/widgets/dw-focus-categories.php:112
+#: inc/widgets/dw-focus-recent-posts.php:315
+#: inc/widgets/dw-focus-latest-news.php:167
+msgid "Show the meta infomation of post"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:268 inc/widgets/dw-focus-categories.php:115
+#: inc/widgets/dw-focus-recent-posts.php:318
+#: inc/widgets/dw-focus-latest-news.php:170
+msgid "Show the date of post"
+msgstr ""
+
+#: inc/widgets/dw-focus-slider.php:271 inc/widgets/dw-focus-categories.php:118
+#: inc/widgets/dw-focus-recent-posts.php:321
+#: inc/widgets/dw-focus-latest-news.php:173
+msgid "Show the author info"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:10
+msgid "Display News from Category"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:105
+msgid "Number of post"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:121
+#: inc/widgets/dw-focus-recent-posts.php:324
+#: inc/widgets/dw-focus-latest-news.php:176
+msgid "Show the category info"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:124
+msgid "Choose style for block category"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:125
+msgid "full width"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:126
+msgid "3 cols"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:135
+msgid "Select categories for showing content"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:182
+#: inc/widgets/dw-focus-categories.php:206
+msgid "All"
+msgstr ""
+
+#: inc/widgets/dw-focus-categories.php:214
+msgid "-- All --"
+msgstr ""
+
 #: inc/widgets/dw-focus-dynamic-widget.php:26
 msgid "Drag & Drop Widgets Here"
 msgstr ""
@@ -886,120 +1034,6 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: inc/widgets/dw-focus-categories.php:10
-msgid "Display News from Category"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:105
-msgid "Number of post"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:112
-#: inc/widgets/dw-focus-latest-news.php:167
-#: inc/widgets/dw-focus-slider.php:224
-#: inc/widgets/dw-focus-recent-posts.php:315
-msgid "Show the meta infomation of post"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:115
-#: inc/widgets/dw-focus-latest-news.php:170
-#: inc/widgets/dw-focus-slider.php:227
-#: inc/widgets/dw-focus-recent-posts.php:318
-msgid "Show the date of post"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:118
-#: inc/widgets/dw-focus-latest-news.php:173
-#: inc/widgets/dw-focus-slider.php:230
-#: inc/widgets/dw-focus-recent-posts.php:321
-msgid "Show the author info"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:121
-#: inc/widgets/dw-focus-latest-news.php:176
-#: inc/widgets/dw-focus-recent-posts.php:324
-msgid "Show the category info"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:124
-msgid "Choose style for block category"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:125
-msgid "full width"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:126
-msgid "3 cols"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:135
-msgid "Select categories for showing content"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:182
-#: inc/widgets/dw-focus-categories.php:206
-msgid "All"
-msgstr ""
-
-#: inc/widgets/dw-focus-categories.php:214
-msgid "-- All --"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-news.php:10
-msgid "DW Focus: Lastest news"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-news.php:11
-msgid "Display latest news"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-news.php:150
-msgid "Lastest News"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-news.php:161
-#: inc/widgets/dw-focus-latest-headlines.php:120
-#: inc/widgets/dw-focus-latest-comments.php:92
-#: inc/widgets/dw-focus-carousel.php:163 inc/widgets/dw-focus-slider.php:199
-#: inc/widgets/dw-focus-recent-posts.php:282
-msgid "Title:"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-news.php:179
-msgid "Show the tag info"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-headlines.php:10
-msgid "Display latest news as a headline scroll"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-headlines.php:11
-msgid "DW Focus: Headlines"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-headlines.php:36
-#: inc/widgets/dw-focus-carousel.php:37
-msgid "Recent Posts"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-headlines.php:123
-#: inc/widgets/dw-focus-carousel.php:166 inc/widgets/dw-focus-slider.php:202
-#: inc/widgets/dw-focus-recent-posts.php:285
-msgid "Number of posts to show:"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-headlines.php:125
-#: inc/widgets/dw-focus-slider.php:205
-msgid "Interval time (0 for disabled):"
-msgstr ""
-
-#: inc/widgets/dw-focus-latest-headlines.php:127
-#: inc/widgets/dw-focus-carousel.php:168 inc/widgets/dw-focus-slider.php:208
-#: inc/widgets/dw-focus-recent-posts.php:287
-msgid "Category:"
-msgstr ""
-
 #: inc/widgets/dw-focus-latest-comments.php:10
 msgid "The most recent comments"
 msgstr ""
@@ -1023,43 +1057,6 @@ msgstr ""
 
 #: inc/widgets/dw-focus-latest-comments.php:95
 msgid "Number of comments to show:"
-msgstr ""
-
-#: inc/widgets/dw-focus-carousel.php:11
-msgid "Display News as a Carousel"
-msgstr ""
-
-#: inc/widgets/dw-focus-carousel.php:12
-msgid "DW Focus: News Carousel"
-msgstr ""
-
-#: inc/widgets/dw-focus-carousel.php:180
-#: inc/widgets/dw-focus-recent-posts.php:299
-msgid "Post Format:"
-msgstr ""
-
-#: inc/widgets/dw-focus-carousel.php:190
-msgid "Interval time (0 for disabled)"
-msgstr ""
-
-#: inc/widgets/dw-focus-carousel.php:191 inc/widgets/dw-focus-slider.php:206
-msgid "second(s)"
-msgstr ""
-
-#: inc/widgets/dw-focus-slider.php:8
-msgid "Display News as a Slider"
-msgstr ""
-
-#: inc/widgets/dw-focus-slider.php:9
-msgid "DW Focus: News Slider"
-msgstr ""
-
-#: inc/widgets/dw-focus-tabs.php:10
-msgid "Display widgets inside a tab"
-msgstr ""
-
-#: inc/widgets/dw-focus-accordion.php:9
-msgid "Display widgets inside an accordion"
 msgstr ""
 
 #: inc/widgets/dw-focus-recent-posts.php:309
@@ -1090,10 +1087,70 @@ msgstr ""
 msgid "DW Focus: Popular News"
 msgstr ""
 
-#: inc/widgets/dw-focus-recent-posts.php:486
+#: inc/widgets/dw-focus-recent-posts.php:502
 msgid "Display featured news with many settings"
 msgstr ""
 
-#: inc/widgets/dw-focus-recent-posts.php:487
+#: inc/widgets/dw-focus-recent-posts.php:503
 msgid "DW Focus: Featured News"
+msgstr ""
+
+#: inc/widgets/dw-focus-tabs.php:10
+msgid "Display widgets inside a tab"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-headlines.php:10
+msgid "Display latest news as a headline scroll"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-headlines.php:11
+msgid "DW Focus: Headlines"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-news.php:10
+msgid "DW Focus: Lastest news"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-news.php:11
+msgid "Display latest news"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-news.php:150
+msgid "Lastest News"
+msgstr ""
+
+#: inc/widgets/dw-focus-latest-news.php:179
+msgid "Show the tag info"
+msgstr ""
+
+#: dw-importer/lib/activation.php:25 dw-importer/lib/activation.php:26
+msgid "Theme Activation"
+msgstr ""
+
+#: dw-importer/lib/activation.php:45
+#, php-format
+msgid "%s Theme Activation"
+msgstr ""
+
+#: dw-importer/lib/activation.php:47
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+
+#: dw-importer/lib/activation.php:54
+msgid "Import Sample Posts, Pages & Widgets"
+msgstr ""
+
+#: dw-importer/lib/activation.php:64
+msgid "Install Required Plugins ?"
+msgstr ""
+
+#: dw-importer/lib/activation.php:103 dw-importer/lib/activation.php:119
+msgid "Home"
+msgstr ""
+
+#: dw-importer/lib/activation.php:139 dw-importer/lib/activation.php:141
+#: dw-importer/lib/activation.php:152
+msgid "Primary Navigation"
 msgstr ""

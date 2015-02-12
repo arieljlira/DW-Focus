@@ -27,7 +27,7 @@ class dw_focus_lastest_news extends WP_Widget {
         $author = isset($instance['author']) ? (bool) $instance['author'] : false;
         $cat = isset($instance['cat']) ? (bool) $instance['cat'] : false;
         $tag = isset($instance['tag']) ? (bool) $instance['tag'] : false;
-
+        $class = '';
         echo $args['before_widget'];
         if ( ! empty( $title ) )
             echo $args['before_title'] . $title . $args['after_title'];

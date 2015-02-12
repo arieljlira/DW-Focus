@@ -479,6 +479,22 @@ class dw_focus_popular_news_Widget extends dw_focus_recents_posts_Widget {
     }
 
 }
+function increase_view() {
+            global $post;
+            if ( is_single() ) {
+                $refer = wp_get_referer();
+                if ( ( $refer && $refer != get_permalink( $post->ID ) ) || ! $refer ) {
+                          $focus_views = get_post_meta( $post->ID, '_views', true );
+                        if ( ! $focus_views ) {
+                            $focus_views = 1;
+                        } else {
+                            $focus_views = ( ( int ) $focus_views ) + 1;
+                        }
+                        update_post_meta( $post->ID, '_views', $focus_views );
+                }
+            }
+        }
+add_action( 'wp_head', 'increase_view' );
 
 
 class dw_focus_featured_news_Widget extends dw_focus_recents_posts_Widget {
@@ -494,7 +510,6 @@ class dw_focus_featured_news_Widget extends dw_focus_recents_posts_Widget {
 
     function query($instance){
 
-
         if ( empty( $instance['number'] ) || ! $number = absint( $instance['number'] ) )
             $number = 10;
         $sticky_posts = get_option('sticky_posts');
@@ -503,16 +518,21 @@ class dw_focus_featured_news_Widget extends dw_focus_recents_posts_Widget {
         if( is_category() && dw_focus_sidebar_has_widget( 'dw_focus_category_sidebar', $this->id ) ){
             $category = get_query_var( 'cat' );
         }
-        $posts = new WP_Query( 
-            array( 
-                'post__in'  =>  $sticky_posts,
-                'posts_per_page'    => $number, 
-                'no_found_rows'         => true, 
-                'post_status'           => 'publish', 
-                'ignore_sticky_posts'   => true,
-                'cat'                   => $category
-            )
-        );
+        if ( isset( $sticky_posts[0] ) ) {
+            $posts = new WP_Query(
+                array(
+                    'post__in'  =>  $sticky_posts,
+                    'posts_per_page'    => $number, 
+                    'no_found_rows'         => true, 
+                    'post_status'           => 'publish', 
+                    'ignore_sticky_posts'   => true,
+                    'cat'                   => $category
+                )
+            );
+        } else {
+             $posts = new WP_Query();
+        }
+
         return $posts;
     }
 

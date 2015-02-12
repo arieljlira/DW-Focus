@@ -47,7 +47,7 @@ get_header(); ?>
         <?php endif; ?>
         </div>
         <?php 
-            dw_focus_pagenavi($blogs, dw_get_option('dw_blog_navigation', 'number') );
+            dw_focus_pagenavi($blogs, dw_get_option('nav_type', 'number') );
         ?>
     </div>
 <?php get_sidebar( 'blog' ); ?>
