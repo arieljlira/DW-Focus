@@ -88,7 +88,6 @@ class DW_Mega_Walker extends Walker_Nav_Menu
 			                'post_status'           => 'publish', 
 			                'cat'              =>      $child->object_id
 			            ) ) );
-
 			          if ($r->have_posts()) :
 			          		while ( $r->have_posts() ) {
 				                    $r->the_post();
@@ -199,3 +198,87 @@ function link_to_menu_editor( $args )
 
     return $output;
 }
+
+function dw_add_category_id_on_menu( $classes, $item ) {
+  if( $item->object !== 'category' )
+    return $classes;
+    
+  $classes[] = 'menu-item-category-' . $item->object_id;
+  return $classes;
+}
+add_filter( 'nav_menu_css_class', 'dw_add_category_id_on_menu', 10, 2 );
+
+/**
+ * Query Post for Submenu
+ */
+add_action( 'wp_ajax_dw_focus_submenu_query', 'dw_focus_submenu_query' );
+add_action( 'wp_ajax_nopriv_dw_focus_submenu_query', 'dw_focus_submenu_query' );
+add_action( 'wp_ajax_dw_focus_lastest_news', 'dw_focus_lastest_news' );
+add_action( 'wp_ajax_nopriv_dw_focus_lastest_news', 'dw_focus_lastest_news' );
+function dw_focus_submenu_query() {
+  $categories = $_POST['cat_ids'];
+  $category = $_POST['cat_id'];
+  $output = '';
+  $output .= "<div class='" . ( ($i===0) ? 'active' : '' ) . "' id='mn-latest-" . $category . "'>";
+      $output .= "<ul id='mn-latest-" . $category . "'>";
+
+        $r = new WP_Query(
+          apply_filters( 'dw_focus_submenu_query', 
+            array( 
+              'posts_per_page' => 5, 
+              'no_found_rows' => true, 
+              'post_status' => 'publish', 
+              'cat' => $category
+            )
+          )
+        );
+
+        if ($r->have_posts()) :
+          while ( $r->have_posts() ) {
+            $r->the_post();
+            $output.= "<li ";
+            if( has_post_thumbnail()) {
+              $output.= "class='has-thumbnail' ";
+            }
+            $output.= "><div class='subcat-thumbnail'><a href='".get_permalink()."' title='".get_the_title()."'>".get_the_post_thumbnail( get_the_ID(), array(40,40))."</a></div><div class='subcat-title'><a href='".get_permalink()."' title='".get_the_title()."'> ".get_the_title()."</a><span> - ". dw_human_time_diff( get_the_time('U'), current_time('timestamp') ) ."</span></div></li>";
+          } 
+          wp_reset_postdata();
+        endif;
+
+      $output .= '</ul>';
+    $output .= '</div>';
+  // for ( $i = 0; $i < count( $categories ); $i++ ) {
+  //   $category = $categories[$i];
+  //   $output .= "<div class='" . ( ($i===0) ? 'active' : '' ) . "' id='mn-latest-" . $category . "'>";
+  //     $output .= "<ul id='mn-latest-" . $category . "'>";
+
+  //       $r = new WP_Query(
+  //         apply_filters( 'dw_focus_submenu_query', 
+  //           array( 
+  //             'posts_per_page' => 5, 
+  //             'no_found_rows' => true, 
+  //             'post_status' => 'publish', 
+  //             'cat' => $category
+  //           )
+  //         )
+  //       );
+
+  //       if ($r->have_posts()) :
+  //         while ( $r->have_posts() ) {
+  //           $r->the_post();
+  //           $output.= "<li ";
+  //           if( has_post_thumbnail()) {
+  //             $output.= "class='has-thumbnail' ";
+  //           }
+  //           $output.= "><div class='subcat-thumbnail'><a href='".get_permalink()."' title='".get_the_title()."'>".get_the_post_thumbnail( get_the_ID(), array(40,40))."</a></div><div class='subcat-title'><a href='".get_permalink()."' title='".get_the_title()."'> ".get_the_title()."</a><span> - ". dw_human_time_diff( get_the_time('U'), current_time('timestamp') ) ."</span></div></li>";
+  //         } 
+  //         wp_reset_postdata();
+  //       endif;
+
+  //     $output .= '</ul>';
+  //   $output .= '</div>';
+  // }
+  echo json_encode( array( 'html' => __( $output ) ) );
+  die();
+}
+

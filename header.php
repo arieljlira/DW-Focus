@@ -43,12 +43,13 @@
 			        }
 			        if( $max_number_posts > 0 ) {
 	        ?>
-		            <div class="btn-group top-news">
-				    	<?php dw_top15(); ?>
+		            <div class="btn-group top-news lastest">
+		            	<i class="fa fa-spinner fa-spin" style="font-size: 30px; display:none;"></i>
+				    	<?php dw_count_lastest_news(); ?>
 				    </div>
 			<?php  
 					} 
-				endif; 
+				endif;
 			?>
 
 		    <div class="wrap-navigation">

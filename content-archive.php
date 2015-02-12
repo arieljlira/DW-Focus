@@ -48,13 +48,12 @@
                         <?php _e(' - ','dw-focus'); ?>
 
                         <?php echo dw_human_time(); ?>
-                        
-                        <?php _e(' - ','dw-focus'); ?>
 
                         <?php
                             $categories_list = get_the_category_list( __( ', ', 'dw_focus' ) );
                             if ( $categories_list && dw_focus_categorized_blog() ) :
                         ?>
+                        <?php _e(' - ','dw-focus'); ?>
                         <span class="cat-links">
                             <?php printf( '%1$s', $categories_list ); ?>
                         </span>
@@ -82,13 +81,12 @@
                     <?php _e(' - ','dw-focus'); ?>
 
                     <?php echo dw_human_time(); ?>
-                    
-                    <?php _e(' - ','dw-focus'); ?>
 
                     <?php
                         $categories_list = get_the_category_list( __( ', ', 'dw_focus' ) );
                         if ( $categories_list && dw_focus_categorized_blog() ) :
                     ?>
+                    <?php _e(' - ','dw-focus'); ?>
                     <span class="cat-links">
                         <?php printf( '%1$s', $categories_list ); ?>
                     </span>

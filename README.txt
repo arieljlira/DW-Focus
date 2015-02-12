@@ -17,6 +17,16 @@ DW Focus – A premium responsive WordPress theme for online news and magazine s
 Please post your questions in Questions & Answers page: http://www.designwall.com/question/
 
 == Changelog ==
+= 1.1.0 =
+- New: Can select tags in DW Focus: News Slider widget.
+- New: Automatic Update.
+- Fix: Compatible with WordPress 4.1.
+- Fix: Broken layout when adding the other widgets to DW Focus: Accordion and DW Focus: Tabs widgets.
+- Fix: Broken layout when adding DW Focus: Latest News to Homepage Sidebar.
+- Fix: DW Focus: Popular News widget shows the latest posts.
+- Fix: DW Focus : Headline widget is broken on Safari.
+- Fix: Navigation technique on the Blog page works incorrectly.
+
 = 1.0.9 =
 - Fix: Deactivate uploading Avatar
 - Fix: Bugs in Sidebar's carousel style
